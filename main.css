@@ -17,6 +17,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    height:100vh;
 
 }
 
@@ -230,6 +231,7 @@
  color: rgb(72, 83, 83);
 }
 
+
 .task-delete-btn {
  position: absolute;
  top: 16px;
@@ -248,4 +250,11 @@
         grid-template-columns: 1fr;
        
     }
+
+    .header-container{
+        height:100vh;
+    }
 }
+
+
+
